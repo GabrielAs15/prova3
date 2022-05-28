@@ -44,7 +44,7 @@ server.post("/sequenciapar", (req,resp) => {
         const d = SequenciaPar(String(e));
 
         resp.send({
-            msg: e
+            msg: d
         })
     }
 
